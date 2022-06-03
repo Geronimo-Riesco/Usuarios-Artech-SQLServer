@@ -69,24 +69,6 @@ VALUES ('Secretario', 'Comercio', 2);
 INSERT INTO Usuarios_Permisos (rol, permisos, usuario_id)
 VALUES ('Vocal', 'Difusión', 1);
 
-
-/*  --------------------- Borrando tablas (DDL) -------------------------  */  
-
-DROP TABLE Usuarios_Permisos;
-
-DROP TABLE Usuarios_Info;
-
-DROP TABLE Usuarios;
-
-/*  --------------------- Eliminando registros (DDL) -------------------------  */  
-
-TRUNCATE TABLE Usuarios_Permisos;
-
-TRUNCATE TABLE Usuarios_Info;
-
-TRUNCATE TABLE Usuarios;
-
-
 /*  --------------------- Consultando tablas (DML) -------------------------  */  
 
 SELECT * FROM Usuarios;
@@ -95,4 +77,18 @@ SELECT * FROM Usuarios_Informacion;
 
 SELECT * FROM Usuarios_Permisos;
 
+/*  --------------------- Eliminando registros (DDL) -------------------------  */  
 
+TRUNCATE TABLE Usuarios_Permisos;
+
+TRUNCATE TABLE Usuarios_Informacion;
+
+TRUNCATE TABLE Usuarios;
+
+/*  --------------------- Eliminando tablas (DDL) -------------------------  */  
+
+DROP TABLE Usuarios_Permisos;
+
+DROP TABLE Usuarios_Informacion;
+
+DROP TABLE Usuarios;
