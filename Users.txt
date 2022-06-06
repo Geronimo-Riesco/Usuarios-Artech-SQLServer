@@ -1,3 +1,6 @@
+/*  --------------------- Creando la Base de Datos Users ---------------------------------------  */
+
+CREATE DATABASE Users;
 
 /*  --------------------- Usando la Base de Datos Users -----------------------------------------  */
 
