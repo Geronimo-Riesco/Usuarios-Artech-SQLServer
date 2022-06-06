@@ -1,7 +1,7 @@
 
 /*  --------------------- Usando la Base de Datos Users -----------------------------------------  */
 
-use Users;
+USE Users;
 
 /*  --------------------- Creando la tabla Usuarios (DDL) --------------------------------------  */
 
